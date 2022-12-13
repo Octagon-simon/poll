@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html,
+body {
+    scroll-behavior: smooth;
+    /*font-family: 'Poppins', sans-serif;*/
+    /*font-family: 'Montaga', serif;*/
+    height: 100%;
+    font-family: 'poppins', sans-serif;
+}
+
+.navbar-item-active {
+    background-color: #fc466b1a !important;
+}
+
+div#root {
+    height: auto !important;
+    min-height: 100%;
+}
+
+.polls-section .single-poll{
+    max-width: 500px;
+    margin: auto;
+}
+
+.polls-section .single-poll p{
+    margin: 0;
+}
+
+.single-poll .single-poll-head{
+    display: flex;
+    min-height: 50px;
+    align-self: center;
+    align-items: center;
+}
+
+.single-poll .single-poll-head div{
+    flex-basis: 50%;
+}
+
+.single-poll .single-poll-head div:last-child{
+    text-align: right;
+}
+
+.single-poll{
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    /*backdrop-filter: blur(5px);*/
+    /*-webkit-backdrop-filter: blur(5px);*/
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.poll-copy-btn{
+    padding: 10px;
+border: 1px solid #ffcb00;
+cursor: pointer;
+background-color: #ffcb00;
+border-radius: 5px;
+}
+
+.single-poll .single-poll-body{
+    margin-top: 10px;
+    background-color: #fff5f8;
+}
+
+.form-section{
+    max-width: 500px;
+    margin: auto;
+    padding:20px;
+    border: 1px solid #ddd;
+}
+
+.is-app-primary {
+    border-color: var(--primary);
+    background-color: var(--primary) !important;
+    color: #000 !important;
+}
+
+:root{
+    --primary : #ffcb00;
+}
